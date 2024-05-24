@@ -1,0 +1,75 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url('./assets/serene.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 40px; 
+}
+
+header {
+  background-color: rgba(40, 44, 52, 0.8);
+  padding: 30px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 40px; 
+}
+
+.buttons {
+  margin: 40px;
+}
+
+.buttons button {
+  margin: 0 20px; 
+  padding: 15px 30px;
+  font-size: 20px;
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(97, 218, 251, 0.9);
+  font-weight: bold;
+  color: #282c34;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.buttons button:hover {
+  background-color: rgba(33, 161, 241, 0.9);
+  transform: scale(1.05);
+}
+
+.buttons button:active {
+  background-color: rgba(27, 135, 209, 0.9);
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px; 
+}
+
+h2 {
+  color: #282c34;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: rgba(97, 218, 251, 0.9);
+  margin: 10px 0; 
+  padding: 15px; 
+  border-radius: 8px; 
+}
